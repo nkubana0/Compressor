@@ -11,14 +11,14 @@ This Python script allows you to compress files and folders into various compres
 3. Run the script using the following command format:
 
     ```
-    python compressor.py <folder_path> <compression_type>
+    python3 compressor.py <folder_path> <compression_type>
     ```
 
     Replace `<folder_path>` with the path to the folder you want to compress and `<compression_type>` with one of the following options: `zip`, `tar`, or `tgz`.
 
     Example:
     ```
-    python compressor.py /path/to/folder zip
+    python3 compressor.py /path/to/folder zip
     ```
 
 4. The script will compress the specified folder into the chosen compression type and save it with the appropriate file extension.
